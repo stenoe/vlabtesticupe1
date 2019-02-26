@@ -1,0 +1,17 @@
+{
+  "image": "steffenoe/vlabsicupe2png",
+  "privateimage": false,
+  "resources": {
+    "memory_mb": "5000",
+    "cpu_units": ""
+ },
+  "container": {
+    "entryPoint": [
+      "/bin/bash",
+      "-c"
+ ],
+    "command": [
+      "source activate snappyEnv && ./run.sh"
+ ]
+  }
+}
